@@ -1,0 +1,11 @@
+@import url('variables.css');
+@import url('layout.css');
+@import url('components.css');
+body {
+  font-family: var(--font-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.6;
+}
+a { text-decoration: none; color: inherit; }
+h1, h2, h3 { margin-bottom: var(--space-2); }
