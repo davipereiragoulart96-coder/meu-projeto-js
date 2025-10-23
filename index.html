@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Projeto CSS3</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🌐 Meu Projeto</div>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li class="dropdown">
+          <a href="#">Serviços ▾</a>
+          <ul class="submenu">
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Desenvolvimento</a></li>
+          </ul>
+        </li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="banner">
+      <h1>Bem-vindo ao Meu Projeto</h1>
+      <p>Interface responsiva criada com CSS Grid e Flexbox</p>
+      <button class="btn btn-primary">Saiba mais</button>
+    </section>
+    <section class="cards">
+      <div class="card">
+        <img src="img/projeto1.jpg" alt="Projeto 1">
+        <h3>Projeto 1</h3>
+        <p>Descrição breve do projeto.</p>
+        <button class="btn btn-secondary">Ver mais</button>
+      </div>
+      <div class="card">
+        <img src="img/projeto1.jpg" alt="Projeto 2">
+        <h3>Projeto 2</h3>
+        <p>Interface moderna e acessível.</p>
+        <button class="btn btn-secondary">Ver mais</button>
+      </div>
+    </section>
+    <section class="form-section">
+      <h2>Entre em Contato</h2>
+      <form class="form">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Mensagem"></textarea>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2025 Meu Projeto CSS3. Todos os direitos reservados.</p>
+  </footer>
+  <script src="js/menu.js"></script>
+</body>
+</html>
